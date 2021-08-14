@@ -1,0 +1,24 @@
+{
+  "name": "form-authentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:priyankag048/form-authentication.git",
+  "author": "priyankag048 <priyankaguha.2012@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/cookie-session": "^2.0.43",
+    "@types/express": "^4.17.13"
+  },
+  "scripts": {
+    "build": "tsc -w",
+    "start": "yarn node build/index.js",
+    "dev": "yarn ts-node src/index.ts"
+  }
+}
